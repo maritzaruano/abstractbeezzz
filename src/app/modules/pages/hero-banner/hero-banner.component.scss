@@ -1,0 +1,37 @@
+.banner-container {
+    position: relative;
+    display: inline-block;
+    object-fit: cover;
+    width: 100%;
+}
+.banner-container img {
+    width: 100%;
+    height:auto; /* Esto mantiene la proporción de la imagen */
+    object-fit: cover; /* Esto asegura que la imagen cubra el área del contenedor sin distorsión */
+}
+
+
+.banner-text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Cambia el color del texto si es necesario */
+    padding: 10px;
+    width: 80%; /* Ajusta el porcentaje según lo que necesites */
+    max-width: 1200px; 
+}
+
+.banner-title {
+
+}
+
+.banner-text {
+    font-size: 4vw;
+    margin: 0;
+    border: white;
+    font-weight:900;
+    text-shadow: 2px 2px 4px white, -2px -2px 4px white, 2px -2px 4px white, -2px 2px 4px white;
+
+}
